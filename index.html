@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Mashup</title>
+    <link rel="stylesheet" media="screen" href="styles.css" />
+    <link rel="icon" type="image/png" href="image.png">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|PT+Sans:400,700|Quicksand:400,500,600|Work+Sans:400,500,600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Movie Mashup</h1>
+      <p class="header__text">
+        Select one of the four movies which best matches the GIF.
+        Hit the "I want more!" to play again.
+      </p>
+    </header>
+    <main class="main">
+        <section class="movie">
+            <div class="movie__title">
+              <div class="movie__title__overlay"></div>
+              <p class="movie__title--text">
+              </p>
+            </div>
+          </section>
+      <section class="board">
+        <figure data-index="0" class="fig board__figure--one">
+          <button class="board__caption board__caption--one"></button>
+        </figure>
+        <figure data-index="1" class="fig board__figure--two">
+          <button class="board__caption board__caption--two"></button>
+        </figure>
+        <figure data-index="2" class="fig board__figure--three">
+          <button class="board__caption board__caption--three"></button>
+        </figure>
+        <figure data-index="3" class="fig board__figure--four">
+          <button class="board__caption board__caption--four"></button>
+        </figure>
+      </section>
+    </main>
+
+    <footer class="footer">
+        <button class="movie__button" type="button">I want more!</button>
+      <p>All rights reserved 2024 KefriCode4U</p>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+    <!-- <script type="text/javascript" src="config.js"></script> -->
+  </body>
+</html>
